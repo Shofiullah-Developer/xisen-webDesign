@@ -1,0 +1,116 @@
+/* Laptop :1200px. */
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .access-img-2 img {
+    margin-right: 0;
+    margin-left: -148px;
+  }
+  .footer-bg {
+    background-size: cover;
+  }
+}
+
+/* Normal desktop (LG) :992px. */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .main-menu ul li {
+    margin: 0 10px;
+  }
+  .slider-text {
+    padding-top: 80px;
+  }
+  .access-img img {
+    margin-left: 0;
+  }
+  .footer-bg {
+    background-size: cover;
+  }
+}
+
+/* Tablet desktop (MD) :768px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .header-transparent {
+    padding: 20px 0;
+  }
+  .slider-text {
+    padding-bottom: 30px;
+  }
+  .access-img img {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .testimonial-img img {
+    margin-left: 0;
+  }
+  .access-img.access-img-2 {
+    margin-right: 0;
+  }
+  .newsletter input {
+    width: 65%;
+  }
+  .footer-bg {
+    background-size: cover;
+  }
+}
+
+/* small mobile (XS) :320px. */
+
+@media (max-width: 767px) {
+  .header-transparent {
+    padding: 20px 0;
+  }
+  .slider-text {
+    padding-bottom: 30px;
+  }
+  .access-img img {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .testimonial-img img {
+    margin-left: 0;
+  }
+  .access-img.access-img-2 {
+    margin-right: 0;
+  }
+  .slider-img img{
+    max-width: 100%;
+  }
+  .slider-text h2{
+    font-size: 35px;
+  }
+  .access-text h3{
+    font-size: 32px;
+  }
+  .section-title h2{
+    font-size:32px;
+  }
+  .testimonial-img img{
+    max-width: 100%;
+  }
+  .newsletter input{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .newsletter button{
+    float: none;
+  }
+
+  .footer-bg {
+    background-size: cover;
+  }
+  .footer-menu ul li{
+    margin-left: 0;
+    margin-right: 20px;
+  }
+}
+
+/*
+    
+     Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .footer-bg {
+    background-size: cover;
+  }
+}
